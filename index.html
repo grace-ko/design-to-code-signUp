@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AnalogSea</title>
+	<meta name="formsandinputs" content="Thinkful Forms and Inputs Challenge">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+	<div class="logo">
+    <img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/s1lUoigoX28V3JL7MWMR/FEWD-001/v5/assets2/1.6.2_challenge_signup_form/logo.png" />
+  </div>
+  <div class="form">
+    <form class="mainform" action="/signup/" method="post">
+      <h1>Sign Up</h1>
+      <label for="email" required>Email</label>
+      <input type="text" placeholder="foo@bar.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+      <label for="Password" required>Password</label>
+      <input type="text" placeholder="1234passw0rd" name="password">
+      <button type="submit">Sign up</button>
+      <p class="forgot"><a href="/forgot-password/new" target="_blank">Forgot password?</a></p>
+    </form>
+  </div>
+  <div> 
+    <p class="login">Already have an account? <a href="/login" target="_blank">Login</a></p>
+  </div>
+</body>
+</html>
+

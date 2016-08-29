@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #4CA0FF;
+}
+.logo {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+img {
+  height: 35px;
+}
+form {
+  background-color: white;
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 3px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  position: relative;
+ 
+}
+h1 {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  color: grey;
+  font-weight: lighter;
+}
+label {
+  position: relative;
+  top: 100px;
+}
+input {
+  position: relative;
+  top: 100px;
+  width: 320px;
+  height: 55px;
+  border: solid 2px #e1e1e1;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+button {
+  position: absolute;
+  top: 330px;
+  left: 40px;
+  background-color: #00c754;
+  width: 320px;
+  padding: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 21px;
+  border: 0;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: grey;
+}
+.forgot a:link {
+  color: grey;
+}
+button:hover {
+  background-color: #009f43;
+}
+.forgot{
+  position: absolute;
+  top: 380px;
+  left: 140px;
+}
+.login {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
